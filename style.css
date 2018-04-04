@@ -1,0 +1,372 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    color: #1E2022;
+    background-color: #f5f6fa;
+}
+
+
+/*PARALLAX 0*/
+.parallax0 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.9)), url(image/first.jpg);
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+}
+
+.navbar {
+    margin: 30px 170px;
+}
+
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0px 60px;
+    color: #1E2022;
+    font-weight: 900;
+}
+
+.social {
+    margin: -55px 0px 0px 1300px;
+}
+
+.soc {
+    margin: 0px 5px;
+}
+
+.logo {
+    width: 32%;
+    margin: 20px 0px 50px 100px;
+}
+
+.button {
+    margin: -20px 0px 30px 650px;
+}
+
+.butop {
+    position: fixed;
+    width: 50px;
+    margin: -90px 0px 0px 1350px;
+}
+
+/*PARALLAX 1*/
+.parallax1 {
+    background-color: #f5f6fa;
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.intro {
+    font-family: 'Yellowtail', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding: 70px 0px 0px 0px;
+}
+
+/*PARALLAX 2*/
+.parallax2 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.6)), url(image/transi.jpg);
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    padding: 50px 0px;
+}
+
+.artistes {
+    display: flex;
+}
+
+.arti {
+    width: 32%;
+    height: 32%;
+    opacity: rgba(0, 0, 0, 0.7);
+    margin: 0px 10px;
+}
+
+.arti:hover{
+    opacity: 0.7;
+}
+
+.art {
+    display: flex;
+    text-align: center;
+    margin: 0px 60px 100px 60px;
+}
+
+.lien {
+    display: grid;
+    margin: 0px 150px;
+}
+
+.ar {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.linsta {
+    color: #DF2B2B;
+    font-weight: 900;
+}
+
+.lien a {
+    padding: 0 0 55px 0;
+}
+
+/*PARALLAX 3*/
+.parallax3 {
+    background-color: #f5f6fa;
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.proces {
+    margin: -70px 0 25px 0;
+}
+
+.box {
+    display: flex;
+    margin: 0 0 0 250px;
+}
+
+.boxinfo {
+    margin: 150px 100px 0px 0px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.boxx {
+    margin: 0px -10px;
+}
+
+hr {
+    margin: 50px 100px;
+}
+
+.crados {
+    margin: 50px 0px 50px 95px;
+}
+
+.crados2 .crado3 {
+    margin: 50px 0px 50px 100px;
+}
+
+.imgBox1 {
+	width: 191px;
+	height: 191px;
+	background: url(image/a1.png) no-repeat;
+}
+.imgBox1:hover {
+	width: 191px;
+	height: 191px;
+	background: url(image/a2.png) no-repeat;
+}
+
+.imgBox2 {
+    width: 191px;
+    height: 191px;
+    background: url(image/b1.png) no-repeat;
+}
+.imgBox2:hover {
+    width: 191px;
+    height: 191px;
+    background: url(image/b2.png) no-repeat;
+}
+
+.imgBox3 {
+    width: 191px;
+    height: 191px;
+    background: url(image/bb1.png) no-repeat;
+}
+.imgBox3:hover {
+    width: 191px;
+    height: 191px;
+    background: url(image/bb2.png) no-repeat;
+}
+
+.imgBox4 {
+    width: 191px;
+    height: 191px;
+    background: url(image/c1.png) no-repeat;
+}
+.imgBox4:hover {
+    width: 191px;
+    height: 191px;
+    background: url(image/c2.png) no-repeat;
+}
+
+.imgBox5 {
+    width: 191px;
+    height: 191px;
+    background: url(image/d1.png) no-repeat;
+}
+.imgBox5:hover {
+    width: 191px;
+    height: 191px;
+    background: url(image/d2.png) no-repeat;
+}
+
+.imgBox6 {
+    width: 191px;
+    height: 191px;
+    background: url(image/e1.png) no-repeat;
+}
+.imgBox6:hover {
+    width: 191px;
+    height: 191px;
+    background: url(image/e2.png) no-repeat;
+}
+
+/*PARALLAX 4*/
+.parallax4 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.6)), url(image/transi.jpg);
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0 30px 0;
+}
+
+.artt {
+    display: flex;
+    text-align: center;
+    margin: 20px 30px;
+}
+
+.lienn {
+    display: grid;
+    margin: 0px 180px;
+}
+
+/*PARALLAX 5*/
+.parallax5 {
+    background-color: #1E2022;
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f5f6fa;
+    padding: 0 0 20px 0;
+}
+
+.block {
+    display: flex;
+}
+
+.block1 {
+    margin: 0px 20px;
+    padding: 0px 80px;
+}
+
+.stitre {
+    margin: 50px 0px 50px 0px;
+}
+
+.formulaire {
+    margin: 50px 70px;
+}
+
+#tattoo {
+    padding: 0px 100px 150px 100px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+input {
+    padding: 10px 50px;
+}
+
+.block2 {
+    margin: 0px 20px;
+    padding: 0px 80px;
+}
+
+.block2 p{
+    font-weight: 900;
+}
+
+.logo2 {
+    margin: -100px 0px 0px 50px;
+}
+
+.lfb {
+    margin: 50px 0px;
+}
+
+
+
+.ligne {
+    margin: 0 0 -60px 150px;
+    padding: 50px 0 0 0;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #1E2022;
+    display: flex;
+    color: #f5f6fa;
+}
+
+footer p{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.foo {
+    margin: 20px 80px;
+}
+
+.fooo {
+    display: flex;
+    margin: 0px 190px;
+}
+
+.foot {
+    padding: 10px 71px;
+    border-radius: 5px;
+}
+
+span {
+    font-size: 12px;
+}
+
+.social2 {
+    margin: 0px 10px;
+}
+
+.souscription {
+    padding: 10px 30px;
+    margin: 20px 70px;
+    border-radius: 5px;
+    background-color: #DF2B2B;
+    font-weight: 900;
+    color: #f5f6fa;
+}
